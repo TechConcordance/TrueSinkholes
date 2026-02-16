@@ -2,6 +2,8 @@
 This is a LabAPI plugin that:
 1. Allows users to modify the range of sinkholes without affecting their size.
 2. Adds a teleport area to sinkholes that causes players to get teleported to the Pocket Dimension if they're too close to the epicenter.
+
+In case you have trouble finding it, the releases can be found [here](https://github.com/TechConcordance/TrueSinkholes/releases).
 <br></br>
 ## Why did I make this?
 Because I saw someone post a LabAPI plugin that is a port of a port of a plugin called 'BetterSinkholes'. Ridiculous.

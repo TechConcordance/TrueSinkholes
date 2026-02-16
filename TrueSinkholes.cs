@@ -52,7 +52,7 @@ public sealed class TrueSinkholes : Plugin
             return;
         var teleportDistance = maxDistance * Config.TeleportDistanceMult;
         var sqrTeleportDistance = teleportDistance * teleportDistance;
-        foreach (var player in from player in ev.AffectedPlayers where !player.HasEffect<PocketCorroding>() && (center - player.Position).SqrMagnitudeIgnoreY() <= sqrTeleportDistance select player)
+        foreach (var player in ev.AffectedPlayers.Where(player => !player.HasEffect<PocketCorroding>() && (center - player.Position).SqrMagnitudeIgnoreY() <= sqrTeleportDistance))
             player.EnableEffect<PocketCorroding>();
     }
 }

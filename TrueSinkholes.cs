@@ -6,8 +6,6 @@ using LabApi.Features;
 using LabApi.Features.Wrappers;
 using LabApi.Loader;
 using LabApi.Loader.Features.Plugins;
-using UnityEngine;
-using Logger = LabApi.Features.Console.Logger;
 
 namespace TrueSinkholes;
 

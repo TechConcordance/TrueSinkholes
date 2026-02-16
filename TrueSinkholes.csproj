@@ -1,0 +1,139 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net48</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>preview</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="Assembly-CSharp">
+        <HintPath>$(SL_References)\Assembly-CSharp.dll</HintPath>
+      </Reference>
+      <Reference Include="Assembly-CSharp-firstpass">
+        <HintPath>$(SL_References)\Assembly-CSharp-firstpass.dll</HintPath>
+      </Reference>
+      <Reference Include="BouncyCastle.Cryptography">
+        <HintPath>$(SL_References)\BouncyCastle.Cryptography.dll</HintPath>
+      </Reference>
+      <Reference Include="Caress">
+        <HintPath>$(SL_References)\Caress.dll</HintPath>
+      </Reference>
+      <Reference Include="CommandSystem.Core">
+        <HintPath>$(SL_References)\CommandSystem.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="CustomPasses">
+        <HintPath>$(SL_References)\CustomPasses.dll</HintPath>
+      </Reference>
+      <Reference Include="LabApi">
+        <HintPath>$(SL_References)\LabApi.dll</HintPath>
+      </Reference>
+      <Reference Include="Mirror">
+        <HintPath>$(SL_References)\Mirror.dll</HintPath>
+      </Reference>
+      <Reference Include="mscorlib">
+        <HintPath>$(SL_References)\mscorlib.dll</HintPath>
+      </Reference>
+      <Reference Include="netstandard">
+        <HintPath>$(SL_References)\netstandard.dll</HintPath>
+      </Reference>
+      <Reference Include="NorthwoodLib">
+        <HintPath>$(SL_References)\NorthwoodLib.dll</HintPath>
+      </Reference>
+      <Reference Include="Pooling">
+        <HintPath>$(SL_References)\Pooling.dll</HintPath>
+      </Reference>
+      <Reference Include="Snake">
+        <HintPath>$(SL_References)\Snake.dll</HintPath>
+      </Reference>
+      <Reference Include="System">
+        <HintPath>$(SL_References)\System.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Buffers">
+        <HintPath>$(SL_References)\System.Buffers.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Core">
+        <HintPath>$(SL_References)\System.Core.dll</HintPath>
+      </Reference>
+      <Reference Include="System.IO.Compression">
+        <HintPath>$(SL_References)\System.IO.Compression.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Memory">
+        <HintPath>$(SL_References)\System.Memory.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Net.Http">
+        <HintPath>$(SL_References)\System.Net.Http.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Numerics.Vectors">
+        <HintPath>$(SL_References)\System.Numerics.Vectors.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Runtime">
+        <HintPath>$(SL_References)\System.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Runtime.Serialization">
+        <HintPath>$(SL_References)\System.Runtime.Serialization.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Threading.Tasks.Extensions">
+        <HintPath>$(SL_References)\System.Threading.Tasks.Extensions.dll</HintPath>
+      </Reference>
+      <Reference Include="System.Xml">
+        <HintPath>$(SL_References)\System.Xml.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.RenderPipelines.Core.Runtime">
+        <HintPath>$(SL_References)\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.RenderPipelines.HighDefinition.Runtime">
+        <HintPath>$(SL_References)\Unity.RenderPipelines.HighDefinition.Runtime.dll</HintPath>
+      </Reference>
+      <Reference Include="Unity.TextMeshPro">
+        <HintPath>$(SL_References)\Unity.TextMeshPro.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine">
+        <HintPath>$(SL_References)\UnityEngine.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AnimationModule">
+        <HintPath>$(SL_References)\UnityEngine.AnimationModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.AudioModule">
+        <HintPath>$(SL_References)\UnityEngine.AudioModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.CoreModule">
+        <HintPath>$(SL_References)\UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.IMGUIModule">
+        <HintPath>$(SL_References)\UnityEngine.IMGUIModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.InputLegacyModule">
+        <HintPath>$(SL_References)\UnityEngine.InputLegacyModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.ParticleSystemModule">
+        <HintPath>$(SL_References)\UnityEngine.ParticleSystemModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.PhysicsModule">
+        <HintPath>$(SL_References)\UnityEngine.PhysicsModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.SharedInternalsModule">
+        <HintPath>$(SL_References)\UnityEngine.SharedInternalsModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.TextRenderingModule">
+        <HintPath>$(SL_References)\UnityEngine.TextRenderingModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.UI">
+        <HintPath>$(SL_References)\UnityEngine.UI.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.UIModule">
+        <HintPath>$(SL_References)\UnityEngine.UIModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.UnityWebRequestModule">
+        <HintPath>$(SL_References)\UnityEngine.UnityWebRequestModule.dll</HintPath>
+      </Reference>
+      <Reference Include="UnityEngine.VFXModule">
+        <HintPath>$(SL_References)\UnityEngine.VFXModule.dll</HintPath>
+      </Reference>
+      <Reference Include="YamlDotNet">
+        <HintPath>$(SL_References)\YamlDotNet.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

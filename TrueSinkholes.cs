@@ -11,8 +11,8 @@ namespace TrueSinkholes;
 
 public sealed class Config
 {
-    public float TeleportDistanceMult { get; set; } = 0.6f;
     public float SlowDistanceMult { get; set; } = 1f;
+    public float TeleportDistanceMult { get; set; } = 0.6f;
 }
 
 public sealed class TrueSinkholes : Plugin

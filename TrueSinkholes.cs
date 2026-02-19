@@ -20,8 +20,8 @@ public sealed class TrueSinkholes : Plugin
     public override string Name => "TrueSinkholes";
     public override string Description => "Improves base-game sinkhole effects.";
     public override string Author => "TechConcordance";
-    public override Version Version => new(1, 0);
-    public override Version RequiredApiVersion => new(LabApiProperties.CompiledVersion);
+    public override Version Version { get; } = new(1, 0);
+    public override Version RequiredApiVersion { get; } = new(LabApiProperties.CompiledVersion);
     
     [field: AllowNull] private Config Config => field ??= this.TryLoadConfig<Config>("config.yml", out var config) ? config : new Config();
 
